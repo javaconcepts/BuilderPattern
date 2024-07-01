@@ -1,5 +1,5 @@
 package BuilderPattern.cars;
 
-public class CarType {
-    
+public enum CarType {
+    CITY_CAR, SPORTS_CAR, SUV
 }
