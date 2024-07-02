@@ -23,9 +23,11 @@ public class Manual {
         this.gpsNavigator = gpsNavigator;
     }
 
-    public String print(){
+    public String print() {
         String info = "";
-        info+= "Type of car: " + carType + "\n";
+        info += "Type of car: " + carType + "\n";
+        info += "Count of seats: " + seats + "\n";
+        info += "Engine: volume - " + engine.getVolume() + "; mileage - " + engine.getMileage() + "\n";
         return info;
     }
 
